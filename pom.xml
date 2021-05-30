@@ -28,8 +28,8 @@
 
     <repositories>
         <repository>
-            <id>spigot-repo</id>
-            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+            <id>codemc-nms</id>
+            <url>https://repo.codemc.io/repository/nms/</url>
         </repository>
         <repository>
             <id>andrei1058-releases</id>
@@ -40,15 +40,9 @@
         <!--Spigot API-->
         <dependency>
             <groupId>org.spigotmc</groupId>
-            <artifactId>spigot-api</artifactId>
+            <artifactId>spigot</artifactId>
             <version>1.8.8-R0.1-SNAPSHOT</version>
-            <scope>provided</scope>
-        </dependency>
-        <!--Bukkit API-->
-        <dependency>
-            <groupId>org.bukkit</groupId>
-            <artifactId>bukkit</artifactId>
-            <version>1.13-R0.1-SNAPSHOT</version>
+            <type>jar</type>
             <scope>provided</scope>
         </dependency>
         <dependency>
